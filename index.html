@@ -113,46 +113,164 @@
     </section>
 
             
-        </section>>    
-        <!-- Logística industrial y especializada -->
-        <section class="py-20 bg-white relative">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12">Soluciones logísticas para negocios especializados</h2>
+    <section class="py-20 bg-white relative">
+        <div class="container mx-auto px-6 relative">
+                <h2 class="text-3xl font-bold text-center mb-12">Soluciones logísticas para negocios especializados</h2>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Card -->
-            <div class="bg-white p-6 rounded-2xl shadow-md transition duration-500 hover:shadow-2xl hover:scale-105 transform hover:bg-gradient-to-b hover:from-blue-600 hover:to-white hover:text-white">
-                <div class="text-4xl mb-4">🚛</div>
-                <h3 class="text-xl font-bold mb-2">Importación de vehículos y maquinaria</h3>
-                <p class="text-gray-700 hover:text-white transition duration-300">Tractocamiones, maquinaria agrícola, autos de subasta.</p>
-            </div>
+            <!-- Flechas de navegación (pantallas grandes) -->
+            <button id="scrollLeft" class="hidden lg:flex items-center justify-center absolute left-0 top-1/2 transform -translate-y-1/2 bg-blue-700 text-white w-10 h-10 rounded-full z-10">
+            &#10094;
+            </button>
+            <button id="scrollRight" class="hidden lg:flex items-center justify-center absolute right-0 top-1/2 transform -translate-y-1/2 bg-blue-700 text-white w-10 h-10 rounded-full z-10">
+            &#10095;
+            </button>
 
-            <div class="bg-white p-6 rounded-2xl shadow-md transition duration-500 hover:shadow-2xl hover:scale-105 transform hover:bg-gradient-to-b hover:from-blue-600 hover:to-white hover:text-white">
-                <div class="text-4xl mb-4">🌽</div>
-                <h3 class="text-xl font-bold mb-2">Importación agroindustrial</h3>
-                <p class="text-gray-700 hover:text-white transition duration-300">Granos, semillas, trigo, sorgo, etc.</p>
-            </div>
+            <!-- Contenedor horizontal -->
+            <div id="cardsContainer" class="flex gap-6 overflow-x-auto scroll-smooth no-scrollbar px-1">
+            
+                <!-- CARD 1 -->
+                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/camionf.jpeg');">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-4xl mb-2">🚛</div>
+                    <h3 class="text-xl font-bold mb-2">Importación de vehículos</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                        Tractocamiones, maquinaria agrícola, autos de subasta y más.
+                    </p>
+                    </div>
+                </div>
 
-            <div class="bg-white p-6 rounded-2xl shadow-md transition duration-500 hover:shadow-2xl hover:scale-105 transform hover:bg-gradient-to-b hover:from-blue-600 hover:to-white hover:text-white">
-                <div class="text-4xl mb-4">🧊</div>
-                <h3 class="text-xl font-bold mb-2">Logística multimodal</h3>
-                <p class="text-gray-700 hover:text-white transition duration-300">Marítima, terrestre y ferroviaria.</p>
-            </div>
+                <!-- CARD 2 -->
+                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/trigof.jpeg');">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-4xl mb-2">🌽</div>
+                    <h3 class="text-xl font-bold mb-2">Importación agroindustrial</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                        Granos, semillas, trigo, sorgo, etc.
+                    </p>
+                    </div>
+                </div>
 
-            <div class="bg-white p-6 rounded-2xl shadow-md transition duration-500 hover:shadow-2xl hover:scale-105 transform hover:bg-gradient-to-b hover:from-blue-600 hover:to-white hover:text-white">
-                <div class="text-4xl mb-4">📥</div>
-                <h3 class="text-xl font-bold mb-2">Consolidación de carga y entregas</h3>
-                <p class="text-gray-700 hover:text-white transition duration-300">CDMX al resto del país.</p>
-            </div>
+                <!-- CARD 3 -->
+                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/2botelasf.jpeg');">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-4xl mb-2">🧊</div>
+                    <h3 class="text-xl font-bold mb-2">Logística multimodal</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                        Transporte marítimo, terrestre y ferroviario.
+                    </p>
+                    </div>
+                </div>
 
-            <div class="bg-white p-6 rounded-2xl shadow-md transition duration-500 hover:shadow-2xl hover:scale-105 transform hover:bg-gradient-to-b hover:from-blue-600 hover:to-white hover:text-white">
-                <div class="text-4xl mb-4">🧾</div>
-                <h3 class="text-xl font-bold mb-2">Gestión logística integral</h3>
-                <p class="text-gray-700 hover:text-white transition duration-300">Seguimiento completo sin tratar con múltiples proveedores.</p>
-            </div>
-            </div>
+                <!-- CARD 4 -->
+                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/autof.jpeg');">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-4xl mb-2">nuevo</div>
+                    <h3 class="text-xl font-bold mb-2">nuevo</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                        Transporte marítimo, terrestre y ferroviario.
+                    </p>
+                    </div>
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/aviof.jpeg');">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-4xl mb-2">nuevo</div>
+                    <h3 class="text-xl font-bold mb-2">nuevo</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                        Transporte marítimo, terrestre y ferroviario.
+                    </p>
+                    </div>
+                </div>
+
+                <!-- CARD 6 -->
+                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/bandatransportadoraf.jpeg');">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-4xl mb-2">nuevo</div>
+                    <h3 class="text-xl font-bold mb-2">nuevo</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                        Transporte marítimo, terrestre y ferroviario.
+                    </p>
+                    </div>
+                </div>
+
+                <!-- CARD 7 -->
+                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/brazosriboticosf.jpeg');">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-4xl mb-2">nuevo</div>
+                    <h3 class="text-xl font-bold mb-2">nuevo</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                        Transporte marítimo, terrestre y ferroviario.
+                    </p>
+                    </div>
+                </div>
+
+                <!-- CARD 8 -->
+                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/buquedecarga.jpeg');">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-4xl mb-2">nuevo</div>
+                    <h3 class="text-xl font-bold mb-2">nuevo</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                        Transporte marítimo, terrestre y ferroviario.
+                    </p>
+                    </div>
+                </div>
+
+                 <!-- CARD 9 -->
+                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/maquinapesadaf.jpeg');">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-4xl mb-2">nuevo</div>
+                    <h3 class="text-xl font-bold mb-2">nuevo</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                        Transporte marítimo, terrestre y ferroviario.
+                    </p>
+                    </div>
+                </div>
+
+                <!-- CARD 10 -->
+                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/vegetalesf.jpeg');">
+                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-4xl mb-2">nuevo</div>
+                    <h3 class="text-xl font-bold mb-2">nuevo</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                        Transporte marítimo, terrestre y ferroviario.
+                    </p>
+                    </div>
+                </div>
+
+            </div>    
         </div>
-        </section>
+    </section>
+
+    <style>
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    </style>
+
+    <script>
+    const container = document.getElementById('cardsContainer');
+    document.getElementById('scrollLeft').addEventListener('click', () => {
+        container.scrollBy({ left: -300, behavior: 'smooth' });
+    });
+    document.getElementById('scrollRight').addEventListener('click', () => {
+        container.scrollBy({ left: 300, behavior: 'smooth' });
+    });
+    </script>
 
 
 
