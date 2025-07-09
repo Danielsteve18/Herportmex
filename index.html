@@ -5,39 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Herportmex - Soluciones de Logística Internacional</title>
+    <link rel="icon" href="./resorces/formatotransparencia.png" type="image/x-icon">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body class="font-sans">
         <!-- Hero Section -->
-    <section class="relative min-h-screen bg-gradient-to-b from-blue-600 to-white flex items-center">
-    <!-- Fondo oscuro -->
-    <div class="absolute inset-0 bg-black opacity-40 z-0"></div>
+    <section class="relative min-h-screen flex items-center bg-gradient-to-b from-blue-600 to-white bg-cover bg-center" style="background-image: url('./resorces/fondoherof.jpeg');">
+        <!-- Fondo oscuro encima de la imagen -->
+        <div class="absolute inset-0 bg-black opacity-40 z-0"></div>
 
-    <!-- Contenido alineado a la izquierda -->
-    <div class="relative z-10 container mx-auto px-4 py-12">
-        <div class="max-w-3xl">
-        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
-            Logística internacional para negocios, e-commerce e importadores
-        </h1>
-        <p class="text-xl md:text-2xl text-white mb-8">
-            Desde China hasta tu puerta. Vehículos, fulfillment y más.
-        </p>
-        <div class="flex gap-4 flex-wrap">
-            <button onclick="abrirFormulario()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">
-            Cotiza tu proyecto
-            </button>
-            <a href="https://wa.me/tu-numero" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full flex items-center gap-2 transition duration-300">
-            <i class="fab fa-whatsapp"></i>
-            Contáctanos
-            </a>
+        <!-- Contenido alineado a la izquierda -->
+        <div class="relative z-10 container mx-auto px-4 py-12">
+            <div class="max-w-3xl">
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                    Logística internacional para negocios, e-commerce e importadores
+                </h1>
+                <p class="text-xl md:text-2xl text-white mb-8">
+                    Desde China hasta tu puerta. Vehículos, fulfillment y más.
+                </p>
+                <div class="flex gap-4 flex-wrap">
+                    <button onclick="abrirFormulario()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">
+                        Cotiza tu proyecto
+                    </button>
+                    <a href="https://wa.me/tu-numero" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full flex items-center gap-2 transition duration-300">
+                        <i class="fab fa-whatsapp"></i>
+                        Contáctanos
+                    </a>
+                </div>
+            </div>
         </div>
-        </div>
-    </div>
 
-    <!-- Globo decorativo abajo a la derecha -->
-    <div class="absolute bottom-0 right-0 text-[480px] hidden md:block select-none z-0 leading-none">🎈</div>
+
     </section>
+
 
 
 
@@ -64,55 +66,56 @@
 
         <!-- Servicios Section -->
     <section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4">
-        <!-- Logística comercial y personal -->
-        <div class="mb-16">
-        <h2 class="text-3xl font-bold text-center mb-12">Soluciones para emprendedores, e-commerce y compras personales</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="container mx-auto px-4">
+            <!-- Logística comercial y personal -->
+            <div class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12">Soluciones para emprendedores, e-commerce y compras personales</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Card 1 -->
+                    <div class="relative group bg-white p-6 rounded-lg shadow-lg overflow-hidden transition duration-300">
+                    <div class="absolute inset-0 rounded-lg border-2 border-transparent group-hover:border-blue-500 transition-all duration-500 z-0"></div>
+                    <div class="relative z-10">
+                        <div class="text-3xl mb-4">🌏</div>
+                        <h3 class="text-xl font-bold mb-3">Importación desde China</h3>
+                        <p class="text-gray-600">Coordinamos proveedor, trámites aduanales e impuestos para importar desde China hasta tu puerta en México. Desde una caja hasta contenedor completo.</p>
+                    </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="relative group bg-white p-6 rounded-lg shadow-lg overflow-hidden transition duration-300">
+                    <div class="absolute inset-0 rounded-lg border-2 border-transparent group-hover:border-blue-500 transition-all duration-500 z-0"></div>
+                    <div class="relative z-10">
+                        <div class="text-3xl mb-4">📦</div>
+                        <h3 class="text-xl font-bold mb-3">Fulfillment Nacional (México)</h3>
+                        <p class="text-gray-600">Recibimos, almacenamos, etiquetamos y enviamos tus productos para ventas en Amazon, Mercado Libre, Coppel y Elektra. Tú solo vendes.</p>
+                    </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="relative group bg-white p-6 rounded-lg shadow-lg overflow-hidden transition duration-300">
+                    <div class="absolute inset-0 rounded-lg border-2 border-transparent group-hover:border-blue-500 transition-all duration-500 z-0"></div>
+                    <div class="relative z-10">
+                        <div class="text-3xl mb-4">🌐</div>
+                        <h3 class="text-xl font-bold mb-3">Fulfillment Internacional (EE.UU.)</h3>
+                        <p class="text-gray-600">Almacena y vende productos en EE.UU. a través de Amazon USA, eBay, Etsy o Walmart, sin necesidad de estar físicamente allá.</p>
+                    </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="relative group bg-white p-6 rounded-lg shadow-lg overflow-hidden transition duration-300">
+                    <div class="absolute inset-0 rounded-lg border-2 border-transparent group-hover:border-blue-500 transition-all duration-500 z-0"></div>
+                    <div class="relative z-10">
+                        <div class="text-3xl mb-4">📬</div>
+                        <h3 class="text-xl font-bold mb-3">PO Box y Compras Personales USA</h3>
+                        <p class="text-gray-600">Te damos una dirección en EE.UU. para recibir compras personales o de negocio, incluso de tiendas que no envían a México.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
             
-            <!-- Card con borde animado -->
-            <div class="relative group bg-white p-6 rounded-lg shadow-lg overflow-hidden transition duration-300">
-            <div class="absolute inset-0 rounded-lg border-2 border-transparent group-hover:border-blue-500 transition-all duration-500 z-0"></div>
-            <div class="relative z-10">
-                <div class="text-3xl mb-4">🌏</div>
-                <h3 class="text-xl font-bold mb-3">Importación desde China</h3>
-                <p class="text-gray-600">Coordinamos proveedor, aduana e impuestos hasta tu dirección.</p>
-            </div>
-            </div>
-
-            <div class="relative group bg-white p-6 rounded-lg shadow-lg overflow-hidden transition duration-300">
-            <div class="absolute inset-0 rounded-lg border-2 border-transparent group-hover:border-blue-500 transition-all duration-500 z-0"></div>
-            <div class="relative z-10">
-                <div class="text-3xl mb-4">📦</div>
-                <h3 class="text-xl font-bold mb-3">Fulfillment Nacional (México)</h3>
-                <p class="text-gray-600">Envíos en Amazon, Coppel, Mercado Libre.</p>
-            </div>
-            </div>
-
-            <div class="relative group bg-white p-6 rounded-lg shadow-lg overflow-hidden transition duration-300">
-            <div class="absolute inset-0 rounded-lg border-2 border-transparent group-hover:border-blue-500 transition-all duration-500 z-0"></div>
-            <div class="relative z-10">
-                <div class="text-3xl mb-4">🌐</div>
-                <h3 class="text-xl font-bold mb-3">Fulfillment Internacional (EE.UU.)</h3>
-                <p class="text-gray-600">Almacena y vende en Amazon USA, eBay, etc.</p>
-            </div>
-            </div>
-
-            <div class="relative group bg-white p-6 rounded-lg shadow-lg overflow-hidden transition duration-300">
-            <div class="absolute inset-0 rounded-lg border-2 border-transparent group-hover:border-blue-500 transition-all duration-500 z-0"></div>
-            <div class="relative z-10">
-                <div class="text-3xl mb-4">📬</div>
-                <h3 class="text-xl font-bold mb-3">PO Box en EE.UU.</h3>
-                <p class="text-gray-600">Recibe productos de tiendas americanas que no envían a México.</p>
-            </div>
-            </div>
-
-        </div>
-        </div>
-    </div>
-    </section>
-
-            
+        </div> 
+    </section>               
     <section class="py-20 bg-white relative">
         <div class="container mx-auto px-6 relative">
                 <h2 class="text-3xl font-bold text-center mb-12">Soluciones logísticas para negocios especializados</h2>
@@ -128,151 +131,130 @@
             <!-- Contenedor horizontal -->
             <div id="cardsContainer" class="flex gap-6 overflow-x-auto scroll-smooth no-scrollbar px-1">
             
-                <!-- CARD 1 -->
-                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/camionf.jpeg');">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
-                    <div class="mb-2">
-                            <img src="./resorces/camionf.jpeg" alt="Icono auto" class="w-24 h-24 object-contain scale-110 object-contain" />
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Importación de vehículos</h3>
+                <!-- CARD 1 - Importación de Vehículos y Maquinaria -->
+                <div class="min-w-[240px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/camionf.jpeg');">
+                <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-6xl mb-2">🚛</div>
+                    <h3 class="text-xl font-bold mb-2">Importación de Vehículos y Maquinaria</h3>
                     <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
-                        Tractocamiones, maquinaria agrícola, autos de subasta y más.
+                    Importamos tractocamiones, maquinaria agrícola, autos nuevos o de subasta, vehículos recreativos y equipo de construcción, cumpliendo con normativas.
                     </p>
-                    </div>
+                </div>
                 </div>
 
-                <!-- CARD 2 -->
-                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/trigof.jpeg');">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
-                    <div class="mb-2">
-                            <img src="./resorces/sin_fondo/trigo.png" alt="Icono auto" class="w-24 h-24 object-contain scale-110 object-contain" />
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Importación agroindustrial</h3>
+                <!-- CARD 2 - Exportación e Importación Agroindustrial -->
+                <div class="min-w-[240px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/trigof.jpeg');">
+                <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-6xl mb-2">🌽</div>
+                    <h3 class="text-xl font-bold mb-2">Exportación e Importación Agroindustrial</h3>
                     <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
-                        Granos, semillas, trigo, sorgo, etc.
+                    Movemos granos, semillas, legumbres y productos agroindustriales con soluciones especializadas en logística multimodal y almacenaje.
                     </p>
-                    </div>
+                </div>
                 </div>
 
-                <!-- CARD 3 -->
-                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/2botelasf.jpeg');">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
-                    <div class="mb-2">
-                            <img src="./resorces/sin_fondo/2botellas.png" alt="Icono auto" class="w-24 h-24 object-contain scale-110 object-contain" />
-                        </div>
-                    <h3 class="text-xl font-bold mb-2">Logística multimodal</h3>
+                <!-- CARD 3 - Logística Multimodal -->
+                <div class="min-w-[240px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/2botelasf.jpeg');">
+                <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-6xl mb-2">🧊</div>
+                    <h3 class="text-xl font-bold mb-2">Logística Multimodal</h3>
                     <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
-                        Transporte marítimo, terrestre y ferroviario.
+                    Ofrecemos transporte eficiente por vía marítima, terrestre y ferroviaria con cobertura internacional.
                     </p>
-                    </div>
+                </div>
                 </div>
 
-                <!-- CARD 4 -->
-                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/autof.jpeg');">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
-                        <div class="mb-2">
-                            <img src="./resorces/sin_fondo/auto.png" alt="Icono auto" class="w-24 h-24 object-contain scale-110 object-contain" />
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Importación de autos</h3>
-                        <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
-                            Vehículos de subasta, autos eléctricos y más desde EE.UU. y Asia.
-                        </p>
-                    </div>
+                <!-- CARD 4 - Exportación de Productos Mexicanos -->
+                <div class="min-w-[240px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/autof.jpeg');">
+                <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-6xl mb-2">🍾</div>
+                    <h3 class="text-xl font-bold mb-2">Exportación de Productos Mexicanos</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                    Exportamos tequila, salsas, suplementos, alimentos, cosméticos y más hacia EE.UU., cumpliendo requisitos logísticos y sanitarios.
+                    </p>
+                </div>
                 </div>
 
-                <!-- CARD 5 -->
-                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/aviof.jpeg');">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
-                        <div class="mb-2">
-                            <img src="./resorces/sin_fondo/avion.png" alt="Icono avión" class="w-24 h-24 object-contain scale-110 object-contain" />
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Logística aérea</h3>
-                        <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
-                            Coordinamos importaciones y exportaciones por vía aérea desde/hacia cualquier país.
-                        </p>
-                    </div>
+                <!-- CARD 5 - Logística Aérea, Marítima y Ferroviaria -->
+                <div class="min-w-[240px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/aviof.jpeg');">
+                <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-6xl mb-2">🚢</div>
+                    <h3 class="text-xl font-bold mb-2">Logística Aérea, Marítima y Ferroviaria</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                    Transporte eficiente por aire, mar o ferrocarril, según tus tiempos y presupuesto.
+                    </p>
+                </div>
                 </div>
 
-                <!-- CARD 6 -->
-                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/bandatransportadoraf.jpeg');">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
-                        <div class="mb-2">
-                            <img src="./resorces/sin_fondo/maquinatransportadora.png" alt="Icono banda" class="w-24 h-24 object-contain scale-110 object-contain" />
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Automatización industrial</h3>
-                        <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
-                            Soluciones para cadenas de producción con bandas transportadoras.
-                        </p>
-                    </div>
+                <!-- CARD 6 - Maquinaria Industrial -->
+                <div class="min-w-[240px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/bandatransportadoraf.jpeg');">
+                <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-6xl mb-2">⚙️</div>
+                    <h3 class="text-xl font-bold mb-2">Importación de Maquinaria Industrial</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                    Traemos líneas de fabricación, componentes electrónicos y maquinaria manufacturera desde China y EE.UU.
+                    </p>
+                </div>
                 </div>
 
-                <!-- CARD 7 -->
-                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/brazosriboticosf.jpeg');">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
-                        <div class="mb-2">
-                            <img src="./resorces/sin_fondo/brazosrobotico.png" alt="Icono robótica" class="w-24 h-24 object-contain scale-110 object-contain" />
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Robótica industrial</h3>
-                        <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
-                            Importamos brazos robóticos para líneas de ensamblaje y automatización.
-                        </p>
-                    </div>
+                <!-- CARD 7 - Robótica y Automatización -->
+                <div class="min-w-[240px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/brazosriboticosf.jpeg');">
+                <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-6xl mb-2">🤖</div>
+                    <h3 class="text-xl font-bold mb-2">Robótica y Automatización</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                    Brazos robóticos, sensores industriales y tecnología de automatización avanzada para producción moderna.
+                    </p>
+                </div>
                 </div>
 
-                <!-- CARD 8 -->
-                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/buquedecarga.jpeg');">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
-                        <div class="mb-2">
-                            <img src="./resorces/sin_fondo/buquecarga.png" alt="Icono buque" class="w-24 h-24 object-contain scale-110 object-contain" />
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Carga marítima</h3>
-                        <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
-                            Coordinación de buques para grandes volúmenes de mercancía internacional.
-                        </p>
-                    </div>
+                <!-- CARD 8 - Logística Marítima -->
+                <div class="min-w-[240px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/buquedecarga.jpeg');">
+                <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-6xl mb-2">🛳️</div>
+                    <h3 class="text-xl font-bold mb-2">Carga en Contenedores</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                    Consolidación de mercancía FCL y LCL con salidas semanales desde los principales puertos del mundo.
+                    </p>
+                </div>
                 </div>
 
-                <!-- CARD 9 -->
-                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/maquinapesadaf.jpeg');">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
-                        <div class="mb-2">
-                            <img src="./resorces/sin_fondo/maquinariapesada.png" alt="Icono maquinaria" class="w-24 h-24 object-contain scale-110 object-contain" />
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Maquinaria pesada</h3>
-                        <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
-                            Excavadoras, cargadores y equipo industrial para construcción o minería.
-                        </p>
-                    </div>
+                <!-- CARD 9 - Maquinaria Pesada -->
+                <div class="min-w-[240px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/maquinapesadaf.jpeg');">
+                <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-6xl mb-2">🏗️</div>
+                    <h3 class="text-xl font-bold mb-2">Maquinaria Pesada</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                    Importamos equipo de construcción, retroexcavadoras, grúas, cargadores frontales y más.
+                    </p>
+                </div>
                 </div>
 
-                <!-- CARD 10 -->
-                <div class="min-w-[280px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/vegetalesf.jpeg');">
-                    <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
-                        <div class="mb-2">
-                            <img src="./resorces/sin_fondo/vegetales.png" alt="Icono vegetales" class="w-24 h-24 object-contain scale-110 object-contain" />
-                        </div>
-                        <h3 class="text-xl font-bold mb-2">Agroexportación</h3>
-                        <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
-                            Transporte refrigerado y logística para frutas, vegetales y productos frescos.
-                        </p>
-                    </div>
+                <!-- CARD 10 - Agroexportación -->
+                <div class="min-w-[240px] h-[400px] bg-cover bg-center rounded-2xl relative overflow-hidden group shadow-lg flex-shrink-0" style="background-image: url('./resorces/vegetalesf.jpeg');">
+                <div class="absolute inset-0 bg-gradient-to-t from-blue-900 via-blue-700 to-transparent opacity-80 group-hover:opacity-100 transition duration-500 ease-in-out"></div>
+                <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white p-6">
+                    <div class="text-6xl mb-2">🥬</div>
+                    <h3 class="text-xl font-bold mb-2">Agroexportación</h3>
+                    <p class="text-sm opacity-0 group-hover:opacity-100 transition duration-300">
+                    Exportamos vegetales frescos, productos orgánicos y procesados hacia EE.UU. y Europa.
+                    </p>
+                </div>
                 </div>
 
 
-            </div>    
-        </div>
-    </section>
-
+            </div>
+        </div>        
+    </section>    
     <style>
     .no-scrollbar::-webkit-scrollbar {
         display: none;
@@ -333,7 +315,7 @@
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
-                    <img src="logo.png" alt="Herportmex Logo" class="h-12 mb-4">
+                    <img src="./resorces/transparencia.png" alt="Herportmex Logo" class="h-18 mb-15">
                 </div>
                 <div>
                     <h3 class="font-bold mb-4">Navegación</h3>
@@ -427,6 +409,7 @@
         const correo = form.correo.value;
         const telefono = form.telefono.value;
         const mensaje = form.mensaje.value;
+        const completado = false;
         console.log("Datos del formulario:", { nombre, correo, telefono, mensaje });
         try {
             await addDoc(collection(db, "cotizaciones"), {
@@ -434,6 +417,7 @@
                 correo,
                 telefono,
                 mensaje,
+                completado,
                 timestamp: new Date()
             });
 
